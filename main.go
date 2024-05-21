@@ -7,7 +7,7 @@ type Point struct {
 	Y int
 }
 
-var DIRECTION_TO_MOVE = []string{"L", "L", "L"}
+var DIRECTION_TO_MOVE = []string{"L", "L", "R"}
 
 type MoveData struct {
 	particles        map[Point]bool // particles list
